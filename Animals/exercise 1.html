@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>Image maps</title>
+</head>
+<body style="text-align: center;background-image: url('bg1image.jpg')">
+    <h1 style="color: brown;font-weight: bolder;background-color: greenyellow">Animal Kingdom</h1>
+    <p style="text-align: center;color: cornsilk;font-size: xx-large;font-weight: bold"></p> 
+    <pre style="text-align: center;background-image: url('bgp.jpg');font-size: x-large;font-weight: bold;color: aliceblue">
+    Click one of the following animals to see details about them
+    Animals that give amazing information
+    1.Elephant                  2.Lion                  3.Deer</pre>
+    <img src="ex1image1.jpg" alt="Animals" usemap="#animals">
+    <map name="animals">
+        <area shape="poly" coords="300,133,370,130,402,145,471,147,526,232,528,319,517,264,509,290,468,279,411,296,352,228,347,227,352,343,317,353,300,293,274,297,266,263,245,295,243,295,243,204,239,145,286,357" 
+              alt="Elephant" title="Click here to see interesting facts and details about Elephant!" 
+              href="elephant.html" target="_blank">
+        <area shape="poly" coords="326,494,338,464,331,424,376,380,415,397,404,379,419,437,391,390,411,440,425,460,474,477" 
+              alt="Lion" title="Click here to see interesting facts and details about Lion!"
+              href="lion.html" target="_blank">
+        <area shape="poly" coords="762,497,762,447,768,394,787,383,847,399,849,395,855,374,852,352,870,362,889,355,857,434,843,491,810,430,783,456,788,497,772,452,833,491"
+              alt="Deer" title="Click here to see interesting facts and details about Deer!"
+              href="deer.html" target="_blank">
+    </map>
+</body>
+</html>
