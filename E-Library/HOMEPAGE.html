@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Connemora Library</title>
+    <link rel="stylesheet" href="exercise.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: url('bg.jpg');
+            background-size: contain;
+        }
+        pre{
+            text-shadow: 1px 1px 2px black, 0 0 25 px blue, 0 0 5px brown;
+        }
+
+        .rightimg {
+            float: right;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .logo {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+        }
+
+
+        .fa {
+            padding: 10px;
+            font-size: 20px;
+            width: 18px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin{
+            background: darkblue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head" style="text-align:center">
+        <img src="Logo.png" class="logo left" width="100" height="100" >
+        <img src="Heading.png">
+    </div>
+
+    <ul>
+        <a href="registration.html"><li><img src="Logo.png" class="logo left" width="50" height="50"></li></a>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a class="active" href="#home">&nbsp;&nbsp;&nbsp;HOME&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#about">&nbsp;&nbsp;&nbsp;ABOUT&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="books.html">&nbsp;&nbsp;&nbsp;BOOKS&nbsp;&nbsp;&nbsp;</a></li>
+        <li style="float:right"><a href="login.html">SIGN UP/LOGIN</a></li>
+    </ul>
+    <div id="slider">
+        <figure>
+            <img src="lib.jpg" height="500px">
+            <a href="books.html"><img src="img3.jpg" height="500px"></a>
+            <img src="img.jpg" height="500px">
+        </figure>
+    </div>
+    <br><br><br>
+    <pre style="color:rgb(109, 0, 0);font-size: xx-large;font-weight: bold;font-family: serif;text-shadow: 1px 1px 2px salmon,0 0 25px sandybrown, 0 0 5px brown;">
+                       1K+                                          10K+                                            100K+
+                AUTHORS                                  BOOKS                                        PAGES
+    </pre>
+    <div class="row">
+        <div class="column side">
+            <marquee>
+            <img src="ath.jpg"height="280px" width="280px">
+            <img src="compound.jpg" height="280px" width="280px">
+            <img src="alchemist.jpg" height="280px" width="280px">
+            <img src="psm.jpg" height="280px" width="280px">
+            <img src="spn.jpg" height="280px" width="280px">
+        </marquee>
+        </div>
+        <div class="column middle" id="about">
+            <h1 style="color:darkred;border-bottom: 2px dotted darkred;">ABOUT US</h1>
+
+            <p style="font-size: large;">
+                Library is the most peacest place where you can learn, grow and find yourself.<br>
+                Our Library has a peaceful environment with lakhs of books to enhance reading of public.
+                The library is housed in a specially constructed state-of-the-art building constructed in Indo-Saracenic
+                style, which even today is an important landmark in the city of Chennai.
+                It was designed by the then consulting Architect to the Government of Madras H. Irvin.
+                The library was declared State Central Library with effect from April 1, 1950 under the control of the
+                Director of Public Instruction who is the ex-officio Director of Public Libraries under the provision of
+                theMadras Public Libraries Act of 1948.
+            </p>
+            <a href="about.html"><button class="button button1">READ MORE</button></a>
+        </div>
+        <div class="column side">
+            <div class="events">
+                <h2 style="color:crimson;background-color: gold;">UPCOMING EVENTS</h2>
+            </div>
+            <div id="scroll-container">
+
+                <div id="scroll-text">
+
+                    <p>International Book Giving Day - February 14 </p>
+                    <p>Exciting Events are going to be held on World Book Day -April 23 </p>
+                    <p>To improve reading of people from anywhere "Read an eBook week - 1 to 7 MArch, 2023" was
+                        celebrated</p>
+                    <p>World Library Day - October 30, 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="contact" style="background-color:rgb(109, 0, 0);color:white">
+        
+        <h3 style="border-bottom: 2px dotted white;color:white">CONTACT US</h3>
+        <h3>&nbsp;&#9742;- &nbsp; 0400-1234&nbsp;567</h3>
+        <h3>&#128241;- &nbsp; 1231234567</h3>
+        <pre><a href="" class="fa fa-facebook"></a>     <a href="https://en.wikipedia.org/wiki/Connemara_Public_Library" class="fa fa-google"></a>    <a href="https://in.linkedin.com/company/connemara-public-library" class="fa fa-linkedin"></a></pre>
+    </div>
+</body>
+
+</html>
